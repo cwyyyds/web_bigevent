@@ -10,7 +10,6 @@ function getUserInfo() {
             layer.msg('获取用户信息成功')
             //调用渲染函数
             renderAvatar(res.data)
-            console.log(res);
         },
         // complete: (res) => {
         //     // 在 complete 回调函数中，可以使用 res.responseJSON 拿到服务器响应回来的数据
